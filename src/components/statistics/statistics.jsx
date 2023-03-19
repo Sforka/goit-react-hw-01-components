@@ -1,5 +1,5 @@
 import { RandomColor } from '../../utils/randomColour.js';
-import css from "./statistics_styles.css"
+import "./statistics_styles.css"
 export const Statistics = ({ title, stats }) => {
   
   return (
