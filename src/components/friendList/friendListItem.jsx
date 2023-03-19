@@ -1,9 +1,10 @@
+import css from './friendList.module.css';
 export const FriendListItem = ({ avatar, name, isOnline, id }) => {
   return (
-    <li className="friendList_item" key={id}>
+    <li className={css.friendList_item} key={id}>
       {isOnline === true ? (
         <span
-          className="friendList_status"
+          className={css.friendList_status}
           style={{
             backgroundColor: 'green',
             width: 10,
@@ -14,7 +15,7 @@ export const FriendListItem = ({ avatar, name, isOnline, id }) => {
         ></span>
       ) : (
         <span
-          className="friendList_status"
+          className={css.friendList_status}
           style={{
             backgroundColor: 'red',
             width: 10,
@@ -25,12 +26,12 @@ export const FriendListItem = ({ avatar, name, isOnline, id }) => {
         ></span>
       )}
       <img
-        className="friendList_avatar"
+        className={css.friendList_avatar}
         src={avatar}
         alt="User avatar"
         width="48"
       />
-      <p className="friendList_name">{name}</p>
+      <p className={css.friendList_name}>{name}</p>
     </li>
   );
 };

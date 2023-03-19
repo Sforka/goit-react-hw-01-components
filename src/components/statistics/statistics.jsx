@@ -1,19 +1,19 @@
 import { RandomColor } from '../../utils/randomColour.js';
-import "./statistics_styles.css"
+import css from "./statistics.module.css"
 export const Statistics = ({ title, stats }) => {
   
   return (
-    <section className="statistics">
-      <h2 className="statistics_title">{title}</h2>
-      <ul className="statistics_list">
+    <section className={css.statistics}>
+      <h2 className={css.statistics_title}>{title}</h2>
+      <ul className={css.statistics_list}>
         {stats.map(({ id, label, percentage }) => (
           <li
-            className="statistics_item"
+            className={css.statistics_item}
             key={id}
             style={{ background: `#` + RandomColor() }}
           >
-            <span className="statistics_label">{label}</span>
-            <span className="statistics_percentage">{percentage}%</span>
+            <span className={css.statistics_label}>{label}</span>
+            <span className={css.statistics_percentage}>{percentage}%</span>
           </li>
         ))}
       </ul>
