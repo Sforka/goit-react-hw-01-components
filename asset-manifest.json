@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Sforka/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/Sforka/goit-react-hw-01-components/static/js/main.07d3183d.js",
+    "main.css": "/Sforka/goit-react-hw-01-components/static/css/main.4bd11db1.css",
+    "main.js": "/Sforka/goit-react-hw-01-components/static/js/main.d682af9f.js",
     "index.html": "/Sforka/goit-react-hw-01-components/index.html",
-    "main.7acaea2f.css.map": "/Sforka/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Sforka/goit-react-hw-01-components/static/js/main.07d3183d.js.map"
+    "main.4bd11db1.css.map": "/Sforka/goit-react-hw-01-components/static/css/main.4bd11db1.css.map",
+    "main.d682af9f.js.map": "/Sforka/goit-react-hw-01-components/static/js/main.d682af9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.4bd11db1.css",
+    "static/js/main.d682af9f.js"
   ]
 }
