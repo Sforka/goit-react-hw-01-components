@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { App } from 'components/App';
 import user from './user.json';
 import data from './data.json';
 import friends from './friends.json';
@@ -11,16 +12,6 @@ import { TransactionHistory } from './components/transactionHistory/transactionH
 import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Profile
-      key={user.tag}
-      username={user.username}
-      tag={user.tag}
-      location={user.location}
-      avatar={user.avatar}
-      stats={user.stats}
-    />
-    <Statistics title="Upload stats" stats={data} />
-    <FriendList friends={friends} />
-    <TransactionHistory items={transactions} />
+    <App/>
   </React.StrictMode>
 );
