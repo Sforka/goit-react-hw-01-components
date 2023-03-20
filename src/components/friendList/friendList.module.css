@@ -11,3 +11,17 @@
   margin-bottom: 3px;
   padding-left: 10px;
 }
+.friendList_green {
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  display: 'block';
+  border-radius: 50%;
+}
+.friendList_red {
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  display: 'block';
+  border-radius: 50%;
+}
