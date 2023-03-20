@@ -1,13 +1,13 @@
-.friends_list{
-display: flex;
-flex-direction: column;
+.friends_list {
+  display: flex;
+  flex-direction: column;
 }
-.friendList_item{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    border: 1px solid ;
-    width: 350px;
-    margin-bottom: 3px;
-    padding-left: 10px;
+.friendList_item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid;
+  width: 350px;
+  margin-bottom: 3px;
+  padding-left: 10px;
 }
